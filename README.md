@@ -37,7 +37,7 @@ The next step is configuring the analysis (TPV Main Window, 5). There are two wa
 Creating an analysis configuration done by specifying a search-scope and search-depth for the analysis. Search-scope defines the maximum number of objects of each class that can be instantiated during analysis. Search-depth defines the maximum number of transitions considered for analysis.
 Once scope and depth have been specified, it is possible to enter an advanced configuration mode. In this advanced mode, an individual analysis configuration can be created for each class and association present in the model.
 #### ii. Using a Previously Defined Configuration
-To use a previously created configuration, click on the *Configuration method* (TPV Main Window, 5) dropdown and select *Upload .properties file*.
+To use a previously created configuration, click on the *Configuration method* dropdown (TPV Main Window, 5) and select *Upload .properties file*.
 The option *Enter a .properties File* should become visible. Click *Select* and choose the .properties file containing the desired analysis configuration.
 ### 6. Performing the Analysis.
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
