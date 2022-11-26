@@ -1,5 +1,5 @@
-# STMTransformation
-Short description.
+# Temporal Property Validation
+
 ---
 ## Installation Instructions
 ## Usage Instructions
