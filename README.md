@@ -2,6 +2,9 @@
 
 ---
 ## Installation Instructions
+This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired directory.
+
+**Note: You must have isntall a Java Runtime Environment in order to run USE**.
 ## Usage Instructions
 <img width="717" alt="MainWindow" src="https://user-images.githubusercontent.com/107441403/203444260-a06e3d34-419f-4a68-abef-0e803d1edc70.png">
 
