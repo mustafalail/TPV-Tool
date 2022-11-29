@@ -1,6 +1,14 @@
 # Temporal Property Validator
 
 ---
+## TPV Tool Demo
+
+<p aligh="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-BNNKYI61EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+(https://www.youtube.com/watch?v=-BNNKYI61EE)
+
 ## Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
 
