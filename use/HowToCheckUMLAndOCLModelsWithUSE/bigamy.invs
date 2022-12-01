@@ -1,3 +1,0 @@
-context Person inv bigamy:
-  Person.allInstances->exists(p|
-    p.wife.isDefined and p.husband.isDefined)
