@@ -1,0 +1,5 @@
+context TrafficLight
+inv: self.pedLight=#Red implies
+(self.requested=true implies
+sometime self.carLight=#Red
+before self.carLight=#Green)
