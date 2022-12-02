@@ -5,6 +5,12 @@
 
 (https://www.youtube.com/watch?v=-BNNKYI61EE)
 
+## Overview of USE 
+
+We have used MDE technologies to define, implement, and package the code of the TPV tool as a plugin for the UML-based Specification Environment (USE). We provide an overview of how to create UML design class diagrams and load them into USE for analysis. 
+
+(https://www.youtube.com/watch?v=44PB0AZTZjA)
+
 ## Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
 
