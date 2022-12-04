@@ -58,8 +58,8 @@ To use a previously created configuration, click on the *Configuration method* d
 The option *Enter a .properties File* should become visible. Click *Select* and choose the .properties file containing the desired analysis configuration.
 ### 6. Performing the Analysis.
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
-## Acknowledgement
-## Citation
+<!-- ## Acknowledgement-->
+<!--## Citation-->
 ## References
 ##### 1. Al-Lail, Mustafa, Ramadan Abdunabi, Robert B. France,  and Indrakshi Ray. "An Approach to Analyzing Temporal Properties in UML Class Models." In MoDeVVa@ MoDELS, pp. 77-86. 2013.
 ##### 2. Al-Lail, Mustafa. "A Framework for Specifying and Analyzing Temporal Properties of UML Class Models." In MoDELS (Demos/Posters/StudentResearch), pp. 112-117. 2013.
