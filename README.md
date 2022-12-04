@@ -9,7 +9,7 @@ We have created a video demonstration of TPV that can be accessed through [this]
 
 We have used MDE technologies to define, implement, and package the code of the TPV tool as a plugin for the UML-based Specification Environment (USE). We provide a [video](https://www.youtube.com/watch?v=44PB0AZTZjA "USE Tutorial") overview of how to create UML design class diagrams and load them into USE for analysis. 
 
-## Installation Instructions
+## TPV Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
 
 **Note: You must install a Java Runtime Environment in order to run USE**.
@@ -19,7 +19,7 @@ This repository contains a modified distribution of USE that includes our TPV pl
 2. Traverse to the *lib* directory of the downloaded USE files
 3. Execute the following command: java -jar use.jar
 
-## Usage Instructions
+## TPV Usage Instructions
 <img width="717" alt="MainWindow" src="https://user-images.githubusercontent.com/107441403/203444260-a06e3d34-419f-4a68-abef-0e803d1edc70.png">
 
 ### 1. Choosing a Class Diagram to Input.
