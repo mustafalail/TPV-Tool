@@ -14,12 +14,22 @@ This repository contains a modified distribution of USE that includes our TPV pl
 
 **Note: You must install a Java Runtime Environment in order to run USE**.
 
-**Note: To run USE on Mac, follow the following instructions:**
+
+## TPV Usage Instructions
+
+### 1. Running TPV.
+
+To launch TPV on Windows, open the bin folder and run the ‘use’ executable.
+
+**To run USE on Mac, follow the following instructions:**
 1. Open a terminal window.
 2. Traverse to the *lib* directory of the downloaded USE files
 3. Execute the following command: java -jar use.jar
 
-## TPV Usage Instructions
+
+After running USE, you need to open the TPV plugin, as shown below.
+
+
 <img width="717" alt="MainWindow" src="https://user-images.githubusercontent.com/107441403/203444260-a06e3d34-419f-4a68-abef-0e803d1edc70.png">
 
 ### 1. Choosing a Class Diagram to Input.
