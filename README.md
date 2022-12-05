@@ -40,6 +40,7 @@ The first input necessary is the class diagram to be analyzed. Click *Select* (T
 
 <img width="556" alt="Chooseuml" src="https://user-images.githubusercontent.com/107441403/203628591-c24e0259-759b-4e04-9128-d20059d5aa30.png">
 
+
 Select the file containing the class diagram that will be analyzed and press *Open*.
 ### 4. Choosing a TOCL Temporal Property from a File.
 The second input necessary is a TOCL temporal property. This can be inputted in different ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
