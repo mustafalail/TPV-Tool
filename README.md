@@ -2,7 +2,6 @@
 
 ---
 ## TPV Tool Demo
-
 We have created a video demonstration of TPV that can be accessed through [this](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") link.
 
 ## Overview of USE 
@@ -36,7 +35,7 @@ After running USE, a user needs to open the TPV plugin, as shown below.
 Refer to the Overview of USE section above for a demo on how to create UML class diagrams. 
 
 ### 3. Choosing a Class Diagram for Analysis.
-The first input of TPV is the class diagram to be analyzed. Click *Select* (TPV Main Window, 1), which opens the following window. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml ffiles. 
+The first input of TPV is the class diagram to be analyzed. Click *Select* (TPV Main Window, 1), which opens the following window. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml files. 
 
 <img width="556" alt="Chooseuml" src="https://user-images.githubusercontent.com/107441403/203628591-c24e0259-759b-4e04-9128-d20059d5aa30.png">
 
