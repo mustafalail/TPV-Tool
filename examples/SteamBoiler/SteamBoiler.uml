@@ -41,12 +41,6 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_pGtv0DVGEey0x6RVn2T6PQ" name="WaterLevelMeasurementDevice">
-    <ownedRule xmi:id="_qyKFgDVoEey0x6RVn2T6PQ" name="appropriateWaterLevel" constrainedElement="_pGtv0DVGEey0x6RVn2T6PQ">
-      <specification xmi:type="uml:OpaqueExpression" xmi:id="_1ZqPsDVoEey0x6RVn2T6PQ">
-        <language>OCL</language>
-        <body>self.waterLevel &lt; self.sb.capacity</body>
-      </specification>
-    </ownedRule>
     <ownedAttribute xmi:id="_oQf8sDVKEey0x6RVn2T6PQ" name="ready" type="_fjALoDVLEey0x6RVn2T6PQ"/>
     <ownedAttribute xmi:id="_oXn4YDVKEey0x6RVn2T6PQ" name="waterLevel" type="_f0dvEDVLEey0x6RVn2T6PQ"/>
     <ownedOperation xmi:id="_qfrwEDVVEey0x6RVn2T6PQ" name="getLevel" isQuery="true" postcondition="_Ns8TkEPyEey_YLaroQoFqQ" precondition="_26E_wEPxEey_YLaroQoFqQ">
@@ -98,7 +92,7 @@
     <ownedAttribute xmi:id="_uwZYUDVKEey0x6RVn2T6PQ" name="failureDetected" type="_fjALoDVLEey0x6RVn2T6PQ"/>
     <ownedAttribute xmi:id="_u6tx8DVKEey0x6RVn2T6PQ" name="wlmdFailure" type="_fjALoDVLEey0x6RVn2T6PQ"/>
     <ownedAttribute xmi:id="_vGj1kDVKEey0x6RVn2T6PQ" name="smdFailure" type="_fjALoDVLEey0x6RVn2T6PQ"/>
-    <ownedAttribute xmi:id="_vR6xADVKEey0x6RVn2T6PQ" name="pumpFailer" type="_fjALoDVLEey0x6RVn2T6PQ"/>
+    <ownedAttribute xmi:id="_vR6xADVKEey0x6RVn2T6PQ" name="pumpFailure" type="_fjALoDVLEey0x6RVn2T6PQ"/>
     <ownedAttribute xmi:id="_vg62UDVKEey0x6RVn2T6PQ" name="pumpControllerFailure" type="_fjALoDVLEey0x6RVn2T6PQ"/>
     <ownedOperation xmi:id="_jUEogDVWEey0x6RVn2T6PQ" name="StartOperation"/>
   </packagedElement>
