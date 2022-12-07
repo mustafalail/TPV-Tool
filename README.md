@@ -57,7 +57,7 @@ Select the file containing the class diagram that will be analyzed and press *Op
 ### 4. Choosing a TOCL Temporal Property from a File.
 The second input necessary is a TOCL temporal property. This can be inputted in three different ways. 
 
-1. Using prespecified TOCL property saved in a .tocl file.
+1. Using a prespecified TOCL property saved in a .tocl file.
 2. Specifying a TOCL property manually from scratch. 
 3. Using the specification patterns to specify a propety.
 
