@@ -61,7 +61,7 @@ The second input necessary is a TOCL temporal property. This can be inputted in 
 2. Specifying a TOCL property manually from scratch. 
 3. Using the specification patterns to specify a propety.
 
-We show how to specify a property using using the three ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
+We show how to specify a property using the three ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
 Click *Select*, which opens a window that asks for a .tocl file.
 
 <p align="center">
