@@ -1,0 +1,4 @@
+context SteamBoiler
+inv: (self.wlmd.waterLevel >= self.maximalNormal or self.wlmd.waterLevel <=
+self.minimalNormal) implies next
+self.program.mode = #EmergencyStop
