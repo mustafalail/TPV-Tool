@@ -103,6 +103,7 @@ Choosing a scope results in the final window below, which includes a description
 <img width="1092" alt="Response in global scope pattern window" src="https://user-images.githubusercontent.com/107441403/206090583-3cd033c2-c8d0-4d73-8911-b69ac757c75c.png">
 </p>
 <p align="center"><b>Response in global scope pattern window</b></p>
+
 Specified properties can then be saved using the *Save to File* option. (Specify TOCL Property Window, e).
 
 
