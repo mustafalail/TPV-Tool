@@ -55,8 +55,14 @@ The first input of TPV is the class diagram to be analyzed. TPV can take UML cla
 
 Select the file containing the class diagram that will be analyzed and press *Open*.
 ### 4. Choosing a TOCL Temporal Property from a File.
-The second input necessary is a TOCL temporal property. This can be inputted in different ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
-Click *Select*, which opens a window similar to the previous step that asks for a .tocl file.
+The second input necessary is a TOCL temporal property. This can be inputted in three different ways. 
+
+1. Using prespecified TOCL property saved in a .tocl file.
+2. Specifying a TOCL property manually from scratch. 
+3. Using the specification patterns to specify a propety.
+
+We show how to specify a property using using the three ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
+Click *Select*, which opens a window that asks for a .tocl file.
 
 <p align="center">
 <img width="554" alt="Choosetocl" src="https://user-images.githubusercontent.com/107441403/203629092-edc061bd-9ead-45f3-b686-ec69bda4afc8.png">
@@ -92,13 +98,6 @@ The option *Enter a .properties File* should become visible. Click *Select* and 
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
 ### 9. Using Examples.
 Along with the tool, we have provided a few examples in the *examples* folder including a Traffic Light model and a Steam Boiler Control System Model, both with temporal properties.
-<p align="center">
-<img width="1227" alt="Traffic light example folder" src="https://user-images.githubusercontent.com/107441403/206085585-253a50eb-6f07-457e-b3d4-905e4fcd9dc9.png">
-</p>
-<p align="center"><b>TrafficLight example folder</b></p>
-
-This folder includes a .uml file of the model, which can be used as the class diagram input in Step 3. It also includes a folder of temporal properties; any of these can be used as the temporal property input in Step 4.
-
 <!-- ## Acknowledgement-->
 <!--## Citation-->
 ## References
