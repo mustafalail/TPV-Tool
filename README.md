@@ -18,13 +18,16 @@ This repository contains a modified distribution of USE that includes our TPV pl
 
 ### 1. Running TPV.
 
-To launch TPV on Windows, open the bin folder and run the ‘use’ executable.
+**Running USE on Windows**
 
-**To run USE on Mac, follow the following instructions:**
+Open the bin folder and run the ‘use’ executable.
+
+**Running USE on Mac**
 1. Open a terminal window.
 2. Traverse to the *lib* directory of the downloaded USE files
 3. Execute the following command: java -jar use.jar
 
+**Launching TPV**
 
 After running USE, a user needs to open the TPV plugin, as shown below.
 
