@@ -44,7 +44,7 @@ This opens the TPV Main Window:
 Refer to the Overview of USE section above for a demo of how to create UML class diagrams in USE specification. Alternatively, you can create a class diagram using any other UML tool and extract it as an XMI file that can then be opened using TPV. We provide a couple of examples in this repository to make it easier for a user to get started with the tool. 
 
 ### 3. Choosing a Class Diagram for Analysis.
-The first input of TPV is the class diagram to be analyzed. Click *Select* (TPV Main Window, 1), which opens the following window. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml files. 
+The first input of TPV is the class diagram to be analyzed. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml files. Click *Select* (TPV Main Window, 1), which opens the following window.
 
 <p align="center">
 <img width="556" alt="Chooseuml" src="https://user-images.githubusercontent.com/107441403/203628591-c24e0259-759b-4e04-9128-d20059d5aa30.png">
