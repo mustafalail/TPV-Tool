@@ -82,7 +82,7 @@ The first specification method involves typing a TOCL property into the text box
 
 ### 6. Using the specification patterns to specify a propety.
 
-**Note: HECTOR, we need a figure in this section**
+**Note: We need a figure in this section**
 
 Alternatively, clicking the *Use Patterns* button (Specify TOCL Property Window, d) will bring up the temporal pattern specification window.
 This window offers a choice to use different temporal specification patterns as templates for defining TOCL properties. Specified properties can then be saved using the *Save to File* option. (Specify TOCL Property Window, e).
