@@ -92,6 +92,13 @@ The option *Enter a .properties File* should become visible. Click *Select* and 
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
 ### 9. Using Examples.
 Along with the tool, we have provided a few examples in the *examples* folder including a Traffic Light model and a Steam Boiler Control System Model, both with temporal properties.
+<p align="center">
+<img width="1227" alt="Traffic light example folder" src="https://user-images.githubusercontent.com/107441403/206085585-253a50eb-6f07-457e-b3d4-905e4fcd9dc9.png">
+</p>
+<p align="center"><b>TrafficLight example folder</b></p>
+
+This folder includes a .uml file of the model, which can be used as the class diagram input in Step 3. It also includes a folder of temporal properties; any of these can be used as the temporal property input in Step 4.
+
 <!-- ## Acknowledgement-->
 <!--## Citation-->
 ## References
