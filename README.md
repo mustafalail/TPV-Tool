@@ -11,7 +11,7 @@ We have used MDE technologies to define, implement, and package the code of the 
 ## TPV Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
 
-**Note: You must install a Java Runtime Environment in order to run USE**.
+**Note: You must install the Java Runtime Environment in order to run USE**.
 
 
 ## TPV Usage Instructions
