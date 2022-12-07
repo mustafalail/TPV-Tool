@@ -29,8 +29,12 @@ Open the bin folder and run the ‘use’ executable.
 
 **Launching TPV**
 
-After running USE, a user needs to open the TPV plugin, as shown below.
-
+After running USE, a user needs to open the TPV plugin by clicking the icon shown below.
+<p align="center">
+<img width="1074" alt="USEMainWindow" src="https://user-images.githubusercontent.com/107441403/206083168-a6140f9b-c09f-4510-84a3-180adbdccbab.png">
+</p>
+<p align="center"><b>USE Main Window</b></p>
+This opens the TPV Main Window:
 <p align="center">
 <img width="717" alt="MainWindow" src="https://user-images.githubusercontent.com/107441403/203444260-a06e3d34-419f-4a68-abef-0e803d1edc70.png">
 </p>
@@ -40,7 +44,7 @@ After running USE, a user needs to open the TPV plugin, as shown below.
 Refer to the Overview of USE section above for a demo of how to create UML class diagrams in USE specification. Alternatively, you can create a class diagram using any other UML tool and extract it as an XMI file that can then be opened using TPV. We provide a couple of examples in this repository to make it easier for a user to get started with the tool. 
 
 ### 3. Choosing a Class Diagram for Analysis.
-The first input of TPV is the class diagram to be analyzed. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml files. Click *Select* (TPV Main Window, 1), which opens the following window.
+The first input of TPV is the class diagram to be analyzed. Click *Select* (TPV Main Window, 1), which opens the following window. TPV can take UML class into the following two formats: 1) the USE specification format in saved in a .use files or 2) the standard UML format saved in .uml files. 
 
 <p align="center">
 <img width="556" alt="Chooseuml" src="https://user-images.githubusercontent.com/107441403/203628591-c24e0259-759b-4e04-9128-d20059d5aa30.png">
@@ -84,6 +88,8 @@ To use a previously created configuration, click on the *Configuration method* d
 The option *Enter a .properties File* should become visible. Click *Select* and choose the .properties file containing the desired analysis configuration.
 ### 8. Performing the Analysis.
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
+### 9. Using Examples.
+Along with the tool, we have provided a few examples in the *examples* folder including a Traffic Light model and a Steam Boiler Control System Model, both with temporal properties.
 <!-- ## Acknowledgement-->
 <!--## Citation-->
 ## References
