@@ -112,7 +112,7 @@ To use a specified TOCL property for analysis, click *Apply* (Specify TOCL Prope
 
 ### 7. Using the Optimization Technique.
 Additionally, there is the option to use the *Optimization Technique* included in the plug-in that can shorten the time needed to perform the analysis. Click the checkbox (TPV Main Window, 4) to use it.
-### 7. Choosing a Configuration Method.
+### 8. Choosing a Configuration Method.
 The next step is configuring the analysis (TPV Main Window, 5). There are two ways to configure the analysis. The first method is entering a new analysis configuration. The second method is using a previously defined configuration stored in a .properties file.
 #### i. Creating a New Analysis Configuration
 Creating an analysis configuration done by specifying a search-scope and search-depth for the analysis. Search-scope defines the maximum number of objects of each class that can be instantiated during analysis. Search-depth defines the maximum number of transitions considered for analysis.
@@ -120,9 +120,30 @@ Once scope and depth have been specified, it is possible to enter an advanced co
 #### ii. Using a Previously Defined Configuration
 To use a previously created configuration, click on the *Configuration method* dropdown (TPV Main Window, 5) and select *Upload .properties file*.
 The option *Enter a .properties File* should become visible. Click *Select* and choose the .properties file containing the desired analysis configuration.
-### 8. Performing the Analysis.
+
+### 9. Performing the Analysis.
 Finally to perform the analysis and search for a counterexample, press *Validate*. You can also press *Cancel* to close the window.
-### 9. Using Examples.
+<p align="center">
+<img width="890" alt="Counterexample" src="https://user-images.githubusercontent.com/107441403/206092273-d6833eb9-65fd-4f6c-a98f-a910f2b40034.png">
+
+</p>
+<p align="center"><b>Example counterexample</b></p>
+
+### 10. Extracting a Sequence Diagram.
+Optionally, you can extract a sequence diagram from a produced counterexample. After pressing *Validate* in the last step, the window below pops up in the bottom right corner.
+<p align="center">
+<img width="257" alt="STM2SD" src="https://user-images.githubusercontent.com/107441403/206092548-a02ff7b9-3ac4-4b93-b037-635577ae4135.png">
+</p>
+<p align="center"><b>STM2SD Window</b></p>
+
+Pressing *OK* converts the counterexample to a sequence diagram like the one below:
+<p align="center">
+<img width="244" alt="Sequence diagram" src="https://user-images.githubusercontent.com/107441403/206092978-72018e92-f687-4c63-aa36-44f9f149d82d.png">
+</p>
+<p align="center"><b>Example sequence diagram</b></p>
+Using the same window, you can convert back to an object diagram and go back and forth.
+
+### 11. Using Examples.
 Along with the tool, we have provided a few examples in the *examples* folder including a Traffic Light model and a Steam Boiler Control System Model, both with temporal properties.
 <p align="center">
  <img width="1227" alt="Traffic light example folder" src="https://user-images.githubusercontent.com/107441403/206085585-253a50eb-6f07-457e-b3d4-905e4fcd9dc9.png">
