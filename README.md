@@ -34,7 +34,9 @@ After running USE, a user needs to open the TPV plugin by clicking the icon show
 <img width="1074" alt="USEMainWindow" src="https://user-images.githubusercontent.com/107441403/206083168-a6140f9b-c09f-4510-84a3-180adbdccbab.png">
 </p>
 <p align="center"><b>USE Main Window</b></p>
-This opens the TPV Main Window:
+
+This opens the TPV Main Window shown below:
+
 <p align="center">
 <img width="717" alt="MainWindow" src="https://user-images.githubusercontent.com/107441403/203444260-a06e3d34-419f-4a68-abef-0e803d1edc70.png">
 </p>
