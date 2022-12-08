@@ -65,7 +65,7 @@ The first input of TPV is the class diagram to be analyzed. TPV can take UML cla
 <p align="center"><b>Choose Input Model File Window</b></p>
 
 Select the file containing the class diagram that will be analyzed and press *Open*.
-### 4. Choosing a TOCL Temporal Property from a File.
+### 4. Specifying TOCL Temporal Properties.
 The second input necessary is a TOCL temporal property. A user can input a property in three different ways. 
 
 1. Using a prespecified TOCL property saved in a .tocl file.
