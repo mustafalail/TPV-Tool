@@ -1,4 +1,4 @@
-# Temporal Property Validator
+# Temporal Property Validator (TPV)
 
 ---
 ## TPV Tool Demo
