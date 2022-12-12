@@ -60,7 +60,7 @@ Refer to the Overview of USE section above for a demo of how to create UML class
 
 ### 3. Choosing a Class Diagram for Analysis.
 The first input of TPV is the class diagram to be analyzed. TPV can take UML class into the following two formats:
-1. The USE specification format saved in a .use files.
+1. The USE specification format saved in .use files.
 2. The standard UML format saved in .uml files.
 
 To chose a class diagram, click *Select* (TPV Main Window, 1), which opens the following window. Then, select the file containing the class diagram that will be analyzed and press *Open*.
