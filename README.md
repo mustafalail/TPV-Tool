@@ -71,13 +71,13 @@ To chose a class diagram, click *Select* (TPV Main Window, 1), which opens the f
 <p align="center"><b>Choose Input Model File Window</b></p>
 
 ### 4. Specifying TOCL Temporal Properties.
-The second input necessary is a TOCL temporal property. A user can input a property in three different ways. 
+The second input necessary for TPV is a TOCL temporal property to be checked. A user can input a property in three different ways. 
 
 1. Using a prespecified TOCL property saved in a .tocl file.
 2. Specifying a TOCL property manually from scratch. 
 3. Using the specification patterns to specify a propety.
 
-We show how to specify a property using the three ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
+We show how to specify a property using the above three ways. The first is inputting a .tocl file containing a TOCL property (TPV Main Window, 2).
 Click *Select*, which opens a window that asks for a .tocl file.
 
 <p align="center">
