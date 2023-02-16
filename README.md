@@ -1,7 +1,7 @@
-# Temporal Property Validator (TPV)
+# The Temporal Property Validator (TPV)
 
 ---
-## TPV Tool Demo
+## TPV Demonstration
 We have created a video demonstration of TPV for the Tool Demonstrations Track at the 45th International Conference on Software Engineering (ICSE 2023). The video can be viewed below.
 
 <!--## [YouTube](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") or watched below.-->
