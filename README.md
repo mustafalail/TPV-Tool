@@ -8,7 +8,7 @@ We have created a video demonstration of TPV for the Tool Demonstrations Track a
 
 
 <p align="center">
-<video src="https://user-images.githubusercontent.com/107634143/206096695-e6f49433-85c3-49dd-80bb-13e7fd835e4a.mp4"/>
+<video src="https://user-images.githubusercontent.com/107634143/224585912-82957982-be74-490b-b2a0-742a472e8407.mp4"/>
 </p>
 
 ## TPV Installation Instructions
