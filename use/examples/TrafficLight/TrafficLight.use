@@ -1,0 +1,39 @@
+model TrafficLight
+
+class TrafficLight
+attributes
+requested : Boolean
+pedLight : Color
+carLight : Color
+operations
+@OperationDetails(isQuery = "false")
+switchCarLight() : Color
+@OperationDetails(isQuery = "false")
+switchPedLight() : Color
+end
+
+class Button
+attributes
+counter : Boolean
+operations
+@OperationDetails(isQuery = "false")
+requestPass() : Boolean
+end
+
+enum Color {Green, Red}
+
+association PedButtonTrafficLight between
+TrafficLight[1] role light
+Button[1..*] role button
+end
+
+constraints
+context TrafficLight::switchPedLight() : Color
+post post2: self.requested = false
+pre pre1: self.requested = true
+
+context Button::requestPass() : Boolean
+pre pre1: self.light.pedLight=#Red
+post post1: self.light.requested=true
+
+

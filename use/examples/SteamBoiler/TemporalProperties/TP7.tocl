@@ -1,0 +1,3 @@
+context ControlProgram
+inv: self.pumpControllerFailure implies
+next self.mode = #Degraded

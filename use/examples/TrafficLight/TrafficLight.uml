@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1cGFQCrLEeyYiIg86aGvFw" name="TrafficLight">
+  <packagedElement xmi:type="uml:Class" xmi:id="_49YasCrLEeyYiIg86aGvFw" name="TrafficLight">
+    <ownedAttribute xmi:id="_f_MCUCrMEeyYiIg86aGvFw" name="requested" type="_CaT0wP5aEeycg-3JNc-Z2g"/>
+    <ownedAttribute xmi:id="_suveICrMEeyYiIg86aGvFw" name="pedLight" type="_lE9pUCrMEeyYiIg86aGvFw"/>
+    <ownedAttribute xmi:id="_u95dUCrMEeyYiIg86aGvFw" name="carLight" type="_lE9pUCrMEeyYiIg86aGvFw"/>
+    <ownedOperation xmi:id="_Gp-tkCrMEeyYiIg86aGvFw" name="switchCarLight">
+      <ownedParameter xmi:id="_yr_sUP5aEeycg-3JNc-Z2g" name="ret" type="_lE9pUCrMEeyYiIg86aGvFw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ir7XMCrMEeyYiIg86aGvFw" name="switchPedLight" postcondition="_a93_QP5cEeycg-3JNc-Z2g" precondition="_mpjjQP5cEeycg-3JNc-Z2g">
+      <ownedRule xmi:id="_a93_QP5cEeycg-3JNc-Z2g" name="post2">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_a93_Qf5cEeycg-3JNc-Z2g">
+          <language>OCL</language>
+          <body>self.requested = false</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:id="_mpjjQP5cEeycg-3JNc-Z2g" name="pre1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_mpjjQf5cEeycg-3JNc-Z2g">
+          <language>OCL</language>
+          <body>self.requested = true</body>
+        </specification>
+      </ownedRule>
+      <ownedParameter xmi:id="_0yhT8P5aEeycg-3JNc-Z2g" name="ret" type="_lE9pUCrMEeyYiIg86aGvFw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5bTFwCrLEeyYiIg86aGvFw" name="Button">
+    <ownedAttribute xmi:id="_P7KlECrMEeyYiIg86aGvFw" name="counter" type="_CaT0wP5aEeycg-3JNc-Z2g" isUnique="false"/>
+    <ownedOperation xmi:id="_A9d2sCrMEeyYiIg86aGvFw" name="requestPass" postcondition="_s9JdsP5bEeycg-3JNc-Z2g" precondition="_X7IccP5bEeycg-3JNc-Z2g">
+      <ownedRule xmi:id="_X7IccP5bEeycg-3JNc-Z2g" name="pre1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_fkCukP5bEeycg-3JNc-Z2g">
+          <language>OCL</language>
+          <body>self.light.pedLight=#Red</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:id="_s9JdsP5bEeycg-3JNc-Z2g" name="post1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_s9Jdsf5bEeycg-3JNc-Z2g">
+          <language>OCL</language>
+          <body>self.light.requested=true</body>
+        </specification>
+      </ownedRule>
+      <ownedParameter xmi:id="_QYqmAP5aEeycg-3JNc-Z2g" name="ret" type="_CaT0wP5aEeycg-3JNc-Z2g" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_lE9pUCrMEeyYiIg86aGvFw" name="Color">
+    <ownedLiteral xmi:id="_opYLQCrMEeyYiIg86aGvFw" name="Green"/>
+    <ownedLiteral xmi:id="_pFii0CrMEeyYiIg86aGvFw" name="Red"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CaT0wP5aEeycg-3JNc-Z2g" name="Boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_EPtQIP5aEeycg-3JNc-Z2g" name="Integer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__EZzcP5aEeycg-3JNc-Z2g" name="PedButtonTrafficLight" memberEnd="_LRSAAP5bEeycg-3JNc-Z2g _NktbMP5bEeycg-3JNc-Z2g">
+    <ownedEnd xmi:id="_LRSAAP5bEeycg-3JNc-Z2g" name="light" type="_49YasCrLEeyYiIg86aGvFw" association="__EZzcP5aEeycg-3JNc-Z2g"/>
+    <ownedEnd xmi:id="_NktbMP5bEeycg-3JNc-Z2g" name="button" type="_5bTFwCrLEeyYiIg86aGvFw" association="__EZzcP5aEeycg-3JNc-Z2g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PUmrgP5bEeycg-3JNc-Z2g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QDSWcP5bEeycg-3JNc-Z2g" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

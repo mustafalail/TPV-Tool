@@ -1,0 +1,4 @@
+context TrafficLight
+inv: self.pedLight=#Red implies
+always self.carLight=#Green
+until self.requested=true
