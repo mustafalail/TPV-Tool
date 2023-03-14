@@ -1,8 +1,8 @@
 # The Temporal Property Validator (TPV)
 
 ---
-## TPV Demonstration
-We have created a video demonstration of TPV for the Tool Demonstrations Track at the 45th International Conference on Software Engineering (ICSE 2023). The video can be viewed below.
+## TPV Overview and Demo
+We have created a video demonstration of TPV that can be viewed below.
 
 <!--## [YouTube](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") or watched below.-->
 
@@ -172,6 +172,11 @@ Along with the tool, we have provided a few examples in the *examples* folder in
 This folder includes a .uml file of the model, which can be used as the class diagram input in Step 3. It also includes a folder of temporal properties; any of these can be used as the temporal property input in Step 4.
 <!-- ## Acknowledgement-->
 <!--## Citation-->
+## TPV Evaluation Survey
+We would love to hear your feedback about TPV. If you would like to provide your feedback, you can fill out the following survey: 
+[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo")
+Your thoughtful feedback is greatly appreciated. 
+
 ## References
 ##### 1. Al-Lail, Mustafa, Ramadan Abdunabi, Robert B. France,  and Indrakshi Ray. "An Approach to Analyzing Temporal Properties in UML Class Models." In MoDeVVa@ MoDELS, pp. 77-86. 2013.
 ##### 2. Al-Lail, Mustafa. "A Framework for Specifying and Analyzing Temporal Properties of UML Class Models." In MoDELS (Demos/Posters/StudentResearch), pp. 112-117. 2013.
