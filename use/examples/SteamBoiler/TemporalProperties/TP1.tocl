@@ -1,3 +1,0 @@
-context ControlProgram
-inv: self.wlmdFailure implies 
-next self.mode = #Rescue
