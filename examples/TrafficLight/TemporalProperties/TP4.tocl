@@ -1,4 +1,0 @@
-context TrafficLight
-inv: self.requested=true implies
-always not self.pedLight=#Green
-until self.carLight=#Red

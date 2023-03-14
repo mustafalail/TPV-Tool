@@ -1,3 +1,0 @@
-context TrafficLight
-inv: self.requested = true implies
-next self.carLight = #Red

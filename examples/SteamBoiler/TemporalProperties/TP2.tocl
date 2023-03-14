@@ -1,3 +1,0 @@
-context ControlProgram
-inv: (smdFailure or pumpFailure or pumpControllerFailure) implies
-next self.mode = #Degraded

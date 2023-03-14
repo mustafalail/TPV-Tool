@@ -1,3 +1,0 @@
-context TrafficLight
-inv: always not
-(self.pedLight=#Green and self.carLight=#Green)

@@ -1,3 +1,0 @@
-context ControlProgram
-inv: self.smdFailure implies
-next self.mode = #Degraded
