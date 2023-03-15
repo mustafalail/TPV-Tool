@@ -63,7 +63,7 @@ The first input of TPV is the class diagram to be analyzed. TPV can take UML cla
 1. The USE specification format saved in .use files.
 2. The standard UML format saved in .uml files.
 
-To chose a class diagram, click *Select* (TPV Main Window, 1), which opens the following window. Then, select the file containing the class diagram that will be analyzed and press *Open*.
+To choose a class diagram, click *Select* (TPV Main Window, 1), which opens the following window. Then, select the file containing the class diagram that will be analyzed and press *Open*.
 
 <p align="center">
 <img width="556" alt="Chooseuml" src="https://user-images.githubusercontent.com/107441403/203628591-c24e0259-759b-4e04-9128-d20059d5aa30.png">
