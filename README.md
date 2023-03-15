@@ -173,8 +173,8 @@ This folder includes a .uml file of the model, which can be used as the class di
 <!-- ## Acknowledgement-->
 <!--## Citation-->
 ## TPV Evaluation Survey
-We would love to hear your feedback about TPV. If you would like to provide your feedback, you can fill out the following survey: 
-[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo")
+We would love to hear your feedback about TPV. If you would like to provide your feedback, you can fill out the following survey at 
+[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo").
 Your thoughtful feedback is greatly appreciated. 
 
 ## References
