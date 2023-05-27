@@ -7,9 +7,6 @@ We have created a video demonstration of TPV that can be viewed below or through
 
 <!--## [YouTube](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") or watched below.-->
 https://github.com/mustafalail/TPV-Tool/assets/107634143/0f99ebf5-fcf5-4790-95a2-9c89072411f9
-<p align="center">
-
-</p>
 
 ## TPV Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
@@ -21,10 +18,7 @@ This repository contains a modified distribution of USE that includes our TPV pl
 
 We have used MDE technologies to define, implement, and package the code of the TPV tool as a plugin for the UML-based Specification Environment (USE). We provide a video overview of how to create UML design class diagrams and load them into USE for analysis. This tutorial can be watched below and can also be acessed on [YouTube](https://www.youtube.com/watch?v=44PB0AZTZjA "USE Tutorial").
 
-<p align="center">
 https://github.com/mustafalail/TPV-Tool/assets/107634143/f288b8b2-6e02-46bc-81fe-7c1ed25facd8
-</p>
-
 
 
 ## TPV Usage Instructions
