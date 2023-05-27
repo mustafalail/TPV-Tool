@@ -2,7 +2,8 @@
 
 ---
 ## TPV Overview and Demo
-We have created a video demonstration of TPV that can be viewed below.
+We have created a video demonstration of TPV that can be viewed below or through [YouTube](https://www.youtube.com/watch?v=pVzzTSdGSdg "TPV Demonstration")
+
 
 <!--## [YouTube](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") or watched below.-->
 
