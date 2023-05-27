@@ -6,7 +6,8 @@ We have created a video demonstration of TPV that can be viewed below or through
 
 
 <!--## [YouTube](https://www.youtube.com/watch?v=-BNNKYI61EE "TPV Tool Demo") or watched below.-->
-https://github.com/mustafalail/TPV-Tool/assets/107634143/0f99ebf5-fcf5-4790-95a2-9c89072411f9
+https://github.com/mustafalail/TPV-Tool/assets/107634143/014d9ba1-2edb-4986-8776-8b9f6d5c07ce
+
 
 ## TPV Installation Instructions
 This repository contains a modified distribution of USE that includes our TPV plug-in. To install the tool, download the repository files as a zip folder and extract them in the desired install directory.
