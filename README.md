@@ -170,13 +170,10 @@ This folder includes a .uml file of the model, which can be used as the class di
 <!-- ## Acknowledgement-->
 <!--## Citation-->
 ## TPV Evaluation Survey
-We would love to hear your feedback about TPV. If you would like to provide your feedback, you can fill out the following survey at 
-[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo").
-Your thoughtful feedback is greatly appreciated. 
 
-## TPV Evaluation Survey Result 
+**Evaluation Methodology**
 
-To evaluate TPV, we used a survey based on the innovative user needs experience (NX) evaluation method proposed by Zarour (2020)~\cite{zarour2020rigorous}. The method is based on three pillars: 
+To evaluate TPV, we used a survey based on the innovative user needs experience (NX) evaluation method proposed by by [Zarour, 2020.](http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/16061/9131) The method is based on three pillars: 
 
 1. Evaluation theory from the social sciences.
 2. The ISO/IEC SQuaRE 25000 series standards. 
@@ -188,10 +185,32 @@ The survey contains a total of 44 questions grouped into four sections focusing 
 3. **Aesthetics:** How appealing do you find the user interface of TPV?
 4. **Trust:** How much do you trust TPV to be reliable and secure? 
 
-After each group of questions, the survey includes a section where users can provide qualitative feedback on each section or suggestions for improvement. To get insights into the user experience of TPV, we collected responses from a sample of student participants in the software design and software engineering courses at Texas A\&M International University. We wanted to make the study as realistic as possible for actual TPV users, so we did not provide the students with formal training on MDE, model checking, or temporal property specification. Instead, we instructed the students to download TPV from a GitHub repository, watch a few tools overview videos, and follow the instructions to download and run the tool. Additionally, we provided the students with an evaluation guide that gave them some basic training on software specification and validation and two specification and validation case studies that they should complete before responding to the survey questions. We gave the students two weeks to complete the survey independently, without supervision. A total of 19 student participants responded to the study.
+After each group of questions, the survey includes a section where users can provide qualitative feedback on each section or suggestions for improvement. To get insights into the user experience of TPV, we collected responses from a sample of student participants in the software design and software engineering courses at Texas A&M International University. We wanted to make the study as realistic as possible for actual TPV users, so we did not provide the students with formal training on MDE, model checking, or temporal property specification. Instead, we instructed the students to download TPV from a GitHub repository, watch a few tools overview videos, and follow the instructions to download and run the tool. Additionally, we provided the students with an evaluation guide that gave them some basic training on software specification and validation and two specification and validation case studies that they should complete before responding to the survey questions. We gave the students two weeks to complete the survey independently, without supervision. A total of 19 student participants responded to the study.
 
-[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo").
-Your thoughtful feedback is greatly appreciated. 
+
+**TPV Evaluation Guide**
+
+We have created a simple document to guide through the evaluatino process--[TPV Evaluation Guide.](https://docs.google.com/document/d/15-sJccxMyMD2zbJa0N3wB8YHXnaAz4Pd/edit?usp=sharing&ouid=108926844064049093574&rtpof=true&sd=true) After completing the tasks in the guide, the students completed the survey and gave ratings of each statement.
+
+**Evaluation Questions**
+
+You can access the actual questions of the survey through this [Questions.](http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/16061/9131)
+
+**Evaluation Results**
+
+The table below summarizes the student survey results on the four criteria. The results show that TPV is generally perceived as useful, but there is room for improvement in the four user experience categories. The user interface is also generally well-liked, but there are some areas that could be improved. Overall, the students felt they could depend on TPV to work correctly and do its tasks.  
+
+| Criteria | Satisfied (%) | Dissatisfied (%) |
+|---|---|---|
+| Usefulness | 90.15 | 9.85 |
+| Pleasure | 91.24 | 8.76 |
+| User Interface Aesthetics | 93.63 | 6.37 |
+| Trust | 91.65 | 8.35 |
+
+**Evaluation Participation**
+
+We would love to hear your feedback about TPV. If you would like to provide your feedback, you can fill out the following survey at 
+[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo"). Your thoughtful feedback is greatly appreciated. 
 
 
 ## References
