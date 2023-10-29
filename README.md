@@ -174,6 +174,26 @@ We would love to hear your feedback about TPV. If you would like to provide your
 [TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo").
 Your thoughtful feedback is greatly appreciated. 
 
+## TPV Evaluation Survey Result 
+
+To evaluate TPV, we used a survey based on the innovative user needs experience (NX) evaluation method proposed by Zarour (2020)~\cite{zarour2020rigorous}. The method is based on three pillars: 
+
+1. Evaluation theory from the social sciences.
+2. The ISO/IEC SQuaRE 25000 series standards. 
+3. The NX dimension of the UX framework.
+
+The survey contains a total of 44 questions grouped into four sections focusing on:
+{\bf Usefulness:} How useful do you find TPV?
+{\bf Pleasure:} How much do you enjoy using TPV?
+{\bf Aesthetics:} How appealing do you find the user interface of TPV?
+{\bf Trust:} How much do you trust TPV to be reliable and secure? 
+
+After each group of questions, the survey includes a section where users can provide qualitative feedback on each section or suggestions for improvement. To get insights into the user experience of TPV, we collected responses from a sample of student participants in the software design and software engineering courses at Texas A\&M International University. We wanted to make the study as realistic as possible for actual TPV users, so we did not provide the students with formal training on MDE, model checking, or temporal property specification. Instead, we instructed the students to download TPV from a GitHub repository, watch a few tools overview videos, and follow the instructions to download and run the tool. Additionally, we provided the students with an evaluation guide that gave them some basic training on software specification and validation and two specification and validation case studies that they should complete before responding to the survey questions. We gave the students two weeks to complete the survey independently, without supervision. 
+
+[TPV Survey](https://forms.gle/HFdTDfSnBVrxkUSM8 "TPV Tool Demo").
+Your thoughtful feedback is greatly appreciated. 
+
+
 ## References
 ##### 1. Al-Lail, Mustafa, Ramadan Abdunabi, Robert B. France,  and Indrakshi Ray. "An Approach to Analyzing Temporal Properties in UML Class Models." In MoDeVVa@ MoDELS, pp. 77-86. 2013.
 ##### 2. Al-Lail, Mustafa. "A Framework for Specifying and Analyzing Temporal Properties of UML Class Models." In MoDELS (Demos/Posters/StudentResearch), pp. 112-117. 2013.
