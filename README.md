@@ -167,7 +167,7 @@ Along with the tool, we have provided a few examples in the *examples* folder in
 This folder includes a .uml file of the model, which can be used as the class diagram input in Step 3. It also includes a folder of temporal properties; any of these can be used as the temporal property input in Step 4.
 <!-- ## Acknowledgement-->
 <!--## Citation-->
-## TPV Evaluation Survey
+## TPV Evaluation
 
 **Evaluation Methodology**
 
