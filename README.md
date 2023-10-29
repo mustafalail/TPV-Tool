@@ -192,7 +192,7 @@ We have created a simple document to guide through the evaluatino process--[TPV 
 
 **Survey Questions**
 
-You can access the actual questions of the survey through this [Questions.](https://docs.google.com/document/d/1Taw5vOmAEqvSM6SLRipmRMqmSiKe9jBvSU_vTd3WXCY/edit?usp=sharing)
+You can access the actual questions of the survey through [Questions.](https://docs.google.com/document/d/1Taw5vOmAEqvSM6SLRipmRMqmSiKe9jBvSU_vTd3WXCY/edit?usp=sharing)
 
 **Evaluation Results**
 
