@@ -189,11 +189,11 @@ After each group of questions, the survey includes a section where users can pro
 
 **Evaluation Guide**
 
-We have created a simple document to guide through the evaluatino process--[TPV Evaluation Guide.](https://docs.google.com/document/d/15-sJccxMyMD2zbJa0N3wB8YHXnaAz4Pd/edit?usp=sharing&ouid=108926844064049093574&rtpof=true&sd=true) After completing the tasks in the guide, the students completed the survey and gave ratings of each statement.
+We have created the following linked simple document to guide through the evaluation process--[TPV Evaluation Guide.](https://docs.google.com/document/d/15-sJccxMyMD2zbJa0N3wB8YHXnaAz4Pd/edit?usp=sharing&ouid=108926844064049093574&rtpof=true&sd=true) After completing the tasks in the guide, the students completed the survey and gave ratings of each question.
 
 **Survey Questions**
 
-You can access the actual questions of the survey through [Questions.](https://docs.google.com/document/d/1Taw5vOmAEqvSM6SLRipmRMqmSiKe9jBvSU_vTd3WXCY/edit?usp=sharing)
+ The actual questions of the survey can be accessed through the following link [(Questions.)](https://docs.google.com/document/d/1Taw5vOmAEqvSM6SLRipmRMqmSiKe9jBvSU_vTd3WXCY/edit?usp=sharing)
 
 **Evaluation Results**
 
