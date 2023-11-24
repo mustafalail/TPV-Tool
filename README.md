@@ -172,7 +172,7 @@ This folder includes a .uml file of the model, which can be used as the class di
 
 **Evaluation Methodology**
 
-To evaluate TPV, we used a survey based on the innovative user needs experience (NX) evaluation method proposed by by [Zarour, 2020.](http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/16061/9131) The method is based on three pillars: 
+To evaluate TPV, we used a survey based on the innovative user needs experience (NX) evaluation method proposed by [Zarour, 2020.](http://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/16061/9131) The method is based on three pillars: 
 
 1. Evaluation theory from the social sciences.
 2. The ISO/IEC SQuaRE 25000 series standards. 
