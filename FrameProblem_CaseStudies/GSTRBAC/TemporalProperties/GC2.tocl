@@ -1,0 +1,1 @@
+context User inv GC2: Role.allInstances()->forAll(r1:Role | STZone.allInstances()->exists(z:STZone | getAssignedRoles(z)->includes(r1)) implies sometimePast STZone.allInstances()->forAll(z:STZone | getAssignedRoles(z)->includesAll(r1.getPrerequisiteRoles())))

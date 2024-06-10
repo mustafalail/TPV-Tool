@@ -1,0 +1,1 @@
+context User inv GC1: STZone.allInstances()->forAll(z:STZone | Role.allInstances()->forAll(r:Role | self.getAssignedRoles(z)->includes(r) implies sometime self.getActivatedRoles(z)->includes(r)))

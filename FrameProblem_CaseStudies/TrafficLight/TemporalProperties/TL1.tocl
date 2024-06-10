@@ -1,0 +1,1 @@
+context TrafficLight inv TL1: always not (self.carLight = #Green and self.pedLight = #Green)

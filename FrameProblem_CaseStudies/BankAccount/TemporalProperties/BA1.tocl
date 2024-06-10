@@ -1,0 +1,1 @@
+context BankAccount inv BA1: sometime balance > 0
