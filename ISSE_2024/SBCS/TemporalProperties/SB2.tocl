@@ -1,1 +1,0 @@
-context ControlProgram inv SB2: self.mode = # Initialization implies always self.mode = # Initialization until (PhysicalUnit.allInstances->forAll(u: PhysicalUnit | u.ready))
