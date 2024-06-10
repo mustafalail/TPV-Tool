@@ -1,0 +1,1 @@
+context Traffic Light inv TL2: self.pedLight = #Green implies sometimePast self.requested
