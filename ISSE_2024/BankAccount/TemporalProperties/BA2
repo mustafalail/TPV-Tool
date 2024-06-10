@@ -1,0 +1,1 @@
+context BankAccount inv BA2: card->notEmpty() implies sometime card->exists(c:DebitCard | c.pay@pre())
