@@ -1,0 +1,1 @@
+context ControlProgram inv SB1: self.failureDetected implies next self.mode = #Degraded
