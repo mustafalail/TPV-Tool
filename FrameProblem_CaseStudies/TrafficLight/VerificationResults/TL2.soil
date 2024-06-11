@@ -1,0 +1,14 @@
+!create button3 : Button
+!button3.counter := true
+!create trafficlight4 : TrafficLight
+!trafficlight4.carLight := Color::Red
+!trafficlight4.pedLight := Color::Green
+!trafficlight4.requested := false
+!insert (trafficlight4, button3) into PedButtonTrafficLight
+!insert (trafficlight4, button3) into PedButtonTrafficLight
+!openter trafficlight4 switchCarLight()
+!button3.counter := true
+!trafficlight4.carLight := Color::Green
+!trafficlight4.pedLight := Color::Green
+!trafficlight4.requested := false
+!opexit Color::Red
