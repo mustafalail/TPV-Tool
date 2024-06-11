@@ -1,0 +1,66 @@
+!create pumpcontroller4 : PumpController
+!pumpcontroller4.circulating := true
+!create steamboiler4 : SteamBoiler
+!steamboiler4.capacity := 1.5
+!steamboiler4.maximalLimit := 1.5
+!steamboiler4.maximalNormal := 1.5
+!steamboiler4.maximumDecrease := 1.5
+!steamboiler4.maximumIncrease := 1.0
+!steamboiler4.minimalLimit := 2.0
+!steamboiler4.minimalNormal := 1.0
+!steamboiler4.valveOpen := ValveState::open
+!create waterlevelmeasurementdevice4 : WaterLevelMeasurementDevice
+!waterlevelmeasurementdevice4.waterLevel := -1.5
+!create controlprogram3 : ControlProgram
+!controlprogram3.failureDetected := true
+!controlprogram3.mode := Mode::Initialization
+!controlprogram3.pumpControllerFailure := true
+!controlprogram3.pumpFailure := false
+!controlprogram3.ready := false
+!controlprogram3.smdFailure := true
+!controlprogram3.wlmdFailure := false
+!create pump4 : Pump
+!pump4.capacity := 2.0
+!pump4.mode := State::off
+!create steammeasurementdevice4 : SteamMeasurementDevice
+!steammeasurementdevice4.evaporationRate := 2.0
+!insert (controlprogram3, pumpcontroller4) into ControlProgramPumpControler
+!insert (pumpcontroller4, pump4) into PumpControllerPump
+!insert (steamboiler4, steammeasurementdevice4) into SteamBoilerSMD
+!insert (steamboiler4, pump4) into SteamBoilerPump
+!insert (steamboiler4, controlprogram3) into SteamBoilerControlProgram
+!insert (steamboiler4, waterlevelmeasurementdevice4) into SteamBoilerWLMD
+!insert (controlprogram3, waterlevelmeasurementdevice4) into ControlProgramWLMD
+!insert (steamboiler4, waterlevelmeasurementdevice4) into SteamBoilerWLMD
+!insert (controlprogram3, pumpcontroller4) into ControlProgramPumpControler
+!insert (controlprogram3, pump4) into ControlProgramPump
+!insert (controlprogram3, waterlevelmeasurementdevice4) into ControlProgramWLMD
+!insert (controlprogram3, steammeasurementdevice4) into ControlProgramSMD
+!insert (steamboiler4, controlprogram3) into SteamBoilerControlProgram
+!insert (steamboiler4, pump4) into SteamBoilerPump
+!insert (pumpcontroller4, pump4) into PumpControllerPump
+!insert (controlprogram3, pump4) into ControlProgramPump
+!insert (steamboiler4, steammeasurementdevice4) into SteamBoilerSMD
+!insert (controlprogram3, steammeasurementdevice4) into ControlProgramSMD
+!openter controlprogram3 startOperation()
+!pumpcontroller4.circulating := true
+!steamboiler4.capacity := 1.5
+!steamboiler4.maximalLimit := 1.5
+!steamboiler4.maximalNormal := 1.5
+!steamboiler4.maximumDecrease := 1.5
+!steamboiler4.maximumIncrease := 1.0
+!steamboiler4.minimalLimit := 2.0
+!steamboiler4.minimalNormal := 1.0
+!steamboiler4.valveOpen := ValveState::open
+!waterlevelmeasurementdevice4.waterLevel := -1.5
+!controlprogram3.failureDetected := true
+!controlprogram3.mode := Mode::Initialization
+!controlprogram3.pumpControllerFailure := true
+!controlprogram3.pumpFailure := false
+!controlprogram3.ready := true
+!controlprogram3.smdFailure := true
+!controlprogram3.wlmdFailure := false
+!pump4.capacity := 2.0
+!pump4.mode := State::off
+!steammeasurementdevice4.evaporationRate := 2.0
+!opexit
