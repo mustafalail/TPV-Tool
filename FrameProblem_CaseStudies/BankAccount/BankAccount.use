@@ -1,0 +1,42 @@
+model BankAccount
+
+class BankAccount
+attributes
+	balance : Integer
+	accountNumber : Integer
+operations
+	deposit(amount : Integer)
+	withdraw(amount : Integer)
+	assignNewCard()
+end
+
+class DebitCard
+attributes
+	cardNumber : Integer
+	limit : Integer
+operations
+	pay(amount : Integer)
+end
+
+association AccountCard between
+BankAccount[1] role account
+DebitCard[0..*] role card
+end
+
+constraints
+context BankAccount
+	inv: (not self.card->isEmpty()) implies self.card->forAll(limit <= self.balance)
+context DebitCard
+	inv: self.limit > 0
+	inv: DebitCard.allInstances()->isUnique(cardNumber)
+context BankAccount::withdraw(amount : Integer)
+	post: self.balance = self.balance@pre - amount
+context BankAccount::deposit(amount: Integer)
+	post: self.balance = self.balance@pre + amount
+context DebitCard::pay(amount : Integer)
+	pre: amount < self.limit
+	post: self.account.balance = self.account.balance@pre-amount
+context BankAccount::assignNewCard()
+	post: DebitCard.allInstances()->select(oclIsNew())->size() = 1
+	post: self.card->includes(DebitCard.allInstances()->select(oclIsNew())->any(true))
+
