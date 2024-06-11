@@ -1,0 +1,7 @@
+!create bankaccount4 : BankAccount
+!bankaccount4.accountNumber := 100
+!bankaccount4.balance := 100
+!openter bankaccount4 withdraw(100)
+!bankaccount4.accountNumber := 100
+!bankaccount4.balance := 0
+!opexit
