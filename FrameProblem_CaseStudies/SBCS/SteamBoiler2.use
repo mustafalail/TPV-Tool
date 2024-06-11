@@ -1,0 +1,154 @@
+model SteamBoiler
+
+--ENUMERATIONS
+
+enum State {on,off}
+enum ValveState {open,closed}
+enum Mode {Normal,Initialization,Degraded,Rescue,EmergencyStop}
+
+--CLASSES
+
+class SteamBoiler
+attributes
+    capacity: Real
+    minimalNormal : Real
+    maximalNormal : Real
+    maximumDecrease : Real
+    maximumIncrease : Real
+    minimalLimit : Real
+    maximalLimit : Real
+    valveOpen : ValveState
+operations
+    openValve()
+end
+
+class WaterLevelMeasurementDevice
+attributes
+    waterLevel : Real
+operations
+    getLevel() : Real
+end
+
+class SteamMeasurementDevice
+attributes
+    evaporationRate : Real
+operations
+    getSteam() : Real
+end
+
+class Pump
+attributes
+    mode : State
+    capacity : Real
+end
+
+class PumpController
+attributes
+    circulating : Boolean
+operations
+    openPump()
+    closePump()
+end
+
+class PhysicalUnit
+attributes
+    ready : Boolean
+end
+
+class ControlProgram
+attributes
+    mode : Mode
+    ready : Boolean
+    failureDetected : Boolean
+    wlmdFailure : Boolean
+    smdFailure : Boolean
+    pumpFailure : Boolean
+    pumpControllerFailure : Boolean
+operations
+    startOperation()
+end
+
+--ASSOCIATIONS
+
+association SteamBoilerControlProgram between 
+    SteamBoiler [1] role sb
+    ControlProgram [1] role program
+end
+
+association SteamBoilerWLMD between 
+    SteamBoiler [1] role sb 
+    WaterLevelMeasurementDevice [1] role wlmd
+end
+
+association SteamBoilerSMD between 
+    SteamBoiler [1] role sb 
+    SteamMeasurementDevice [1] role smd
+end
+
+association SteamBoilerPump between 
+    SteamBoiler [1] role sb
+    Pump [1] role pump 
+end
+
+association ControlProgramPump between
+    ControlProgram [1] role program 
+    Pump [1] role pump
+end
+
+association PumpControllerPump between 
+    PumpController [1] role controller
+    Pump [1] role pump 
+end
+
+association ControlProgramPumpControler between 
+    ControlProgram [1] role program
+    PumpController [1] role PC
+end
+
+association ControlProgramWLMD between 
+    ControlProgram [1] role program 
+    WaterLevelMeasurementDevice [1] role wlmd
+end
+
+association ControlProgramSMD between 
+    ControlProgram [1] role program 
+    SteamMeasurementDevice [1] role smd
+end
+
+constraints
+
+--ADCM Invariants
+
+context WaterLevelMeasurementDevice
+    inv WaterLevelLimit: self.waterLevel <= self.sb.capacity
+
+context SteamBoiler
+    inv ValveOpenInv: self.valveOpen = #open implies self.program.mode = #Initialization
+
+-- pre and post conditions
+
+context PumpController::openPump()
+    pre pre1: self.pump.mode = #off 
+    post post1: self.pump.mode = #on
+
+context PumpController::closePump()
+    pre pre1: self.pump.mode = #on 
+    post post1: self.pump.mode = #off
+
+context SteamBoiler::openValve()
+    pre pre1: self.valveOpen = #closed
+    post post1: self.valveOpen = #open
+
+context WaterLevelMeasurementDevice::getLevel() : Real
+    pre pre1: self.program.mode= #Normal
+    post post1: self.waterLevel = result
+
+context SteamMeasurementDevice::getSteam() : Real
+    pre pre1: self.program.mode = #Normal
+    post post1: self.evaporationRate = result
+
+context ControlProgram::startOperation()
+    pre pre1: self.ready = false
+    post post1: self.ready = true
+
+    
