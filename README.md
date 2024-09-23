@@ -189,7 +189,7 @@ After each group of questions, the survey includes a section where users can pro
 
 **Evaluation Guide**
 
-We have created the following linked simple document to guide through the evaluation process--[TPV Evaluation Guide.](https://docs.google.com/document/d/15-sJccxMyMD2zbJa0N3wB8YHXnaAz4Pd/edit?usp=sharing&ouid=108926844064049093574&rtpof=true&sd=true) After completing the tasks in the guide, the students completed the survey and gave ratings of each question.
+We have created the following linked simple document to guide through the evaluation process--[CDA Evaluation Guide.](https://docs.google.com/document/d/1otBNhrkt0rW8WY37WpMNodvuUxJDazzzdPBzR4oBwFg/edit?usp=sharing) After completing the tasks in the guide, the students completed the survey and gave ratings of each question.
 
 **Survey Questions**
 
